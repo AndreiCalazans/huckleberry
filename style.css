@@ -11,9 +11,12 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 header {
-  max-width: 700px;
-  margin: 40px auto;
 }
 
 header h1 {
@@ -27,25 +30,21 @@ header p {
 main {
   background-color: #999999;
   border-top: 5px solid #6a6a6a;
-  min-height: 70%;
+  padding: 96px 0;
 }
 
-.padding {
-  padding: 20px;
+.intro-chunk {
+  padding: 96px 24px 48px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
 }
 
 .card {
   background-color: white;
-  max-width: 700px;
-  margin: 80px auto;
   border-bottom: 5px solid #6a6a6a;
-}
-
-.intro-chunk {
-}
-
-.intro-chunk strong {
-  color: #009966;
+  padding: 8px 24px;
 }
 
 .indented-heading {
@@ -53,6 +52,6 @@ main {
   width: fit-content;
   margin: 0 0 0 -30px;
   padding: 20px;
-  background-color: #ffc000;
-  border-bottom: 5px solid #cc9900;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
 }
